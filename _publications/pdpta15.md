@@ -3,7 +3,7 @@ title: "A Tool for Automatically Suggesting Source-Code Optimizations for Comple
 collection: publications
 permalink: /publication/pdpta15
 excerpt: 
-date: 2015
+date: '2015'
 venue: 'International Conference on Parallel and Distributed Processing Techniques and Applications'
 paperurl: 
 citation: 

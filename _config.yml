@@ -81,29 +81,29 @@ analytics:
 # Site Author
 author:
   name             : "Saeed Taheri"
-  avatar           : "avatar.jpg"
+  avatar           : "newPic.jpg"
   bio              : "Computer Science Ph.D. Student at the University of Utah"
   location         : "Salt Lake City, Utah"
   employer         :
   googlescholar    : "http://yourfullgooglescholarurl.com"
   email            : "staheri@cs.utah.edu"
-  uri              : 
-  bitbucket        : 
+  uri              :
+  bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         : "https://www.facebook.com/saeedt5"
   foursquare       :
-  github           : 
+  github           :
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
   linkedin         : "https://www.linkedin.com/in/saeedt/"
-  orcid            : 
+  orcid            :
   pinterest        :
   soundcloud       :
-  stackoverflow    : 
+  stackoverflow    :
   steam            :
   tumblr           :
   twitter          : "https://twitter.com/saeedoneal"
@@ -219,10 +219,10 @@ defaults:
       path: ""
       type: publications
     values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
+      layout: default
+      author_profile: false
+      share: false
+      comments: false
   # _portfolio
   - scope:
       path: ""

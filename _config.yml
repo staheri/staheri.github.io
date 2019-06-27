@@ -85,7 +85,7 @@ author:
   bio              : "Computer Science Ph.D. Student at the University of Utah"
   location         : "Salt Lake City, Utah"
   employer         :
-  googlescholar    :
+  googlescholar    : https://scholar.google.com/citations?user=TJVQmioAAAAJ&hl=en
   email            : "staheri@cs.utah.edu"
   uri              :
   bitbucket        :
@@ -99,7 +99,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/saeedt/"
+  linkedin         : "saeedt"
   orcid            :
   pinterest        :
   soundcloud       :
@@ -219,7 +219,7 @@ defaults:
       path: ""
       type: publications
     values:
-      layout: splash
+      layout: single
       author_profile: false
       share: false
       comments: false

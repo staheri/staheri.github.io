@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Saeed Taheri"
 title_separator          : "-"
 name                     : &name "Saeed Taheri"
-description              : &description "Ph.D. Student at the University of Utah"
+description              : &description "Ph.D. Candidate @ University of Utah"
 url                      : https://staheri.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "staheri.github.io"
@@ -94,10 +94,10 @@ author:
   flickr           :
   facebook         : "saeedt5"
   foursquare       :
-  github           :
+  github           : "staheri"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "saeed_t5"
   lastfm           :
   linkedin         : "saeedt"
   orcid            :

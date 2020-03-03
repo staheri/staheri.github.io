@@ -1,11 +1,10 @@
 ---
 layout: archive
-title: "CV"
-permalink: /cv/
+title: "Blog"
+permalink: /blog/
 author_profile: true
-pdf: https://staheri.github.io/files/cv-march20.pdf
 redirect_from:
-  - /resume
+  - /blog
 ---
 
 {% include base_path %}

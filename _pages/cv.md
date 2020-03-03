@@ -7,8 +7,7 @@ pdf: https://staheri.github.io/files/cv-march20.pdf
 redirect_from:
   - /resume
 ---
-[Latest CV - March 2020](https://staheri.github.io/files/cv-march20.pdf)
-![Drag Racing](https://staheri.github.io/images/pdf_logo.jpeg)
+Latest CV - March 2020: [![CV_pdf](https://staheri.github.io/images/pdf_logo.jpeg =45*30)](https://staheri.github.io/files/cv-march20.pdf)
 
 Education
 ======

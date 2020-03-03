@@ -7,12 +7,8 @@ pdf: https://staheri.github.io/files/cv-march20.pdf
 redirect_from:
   - /resume
 ---
-
-{% include base_path %}
-
-{% if post.pdf %}
-  <a href=" {{ post.pdf }} "> Latest CV <img src="/images/pdf_logo.jpeg" width="30" height="45" alt="pdf"></a></p>
-{% endif %}
+[Latest CV - March 2020](https://staheri.github.io/files/cv-march20.pdf)
+![Drag Racing](https://staheri.github.io/images/pdf_logo.jpeg)
 
 Education
 ======

@@ -10,7 +10,7 @@ tags:
 ---
 
 # Intro to Go Concurrency Verification
-Due to its simplicity and functionality, Go is receiving attention among developers. However, there are not that many tools to focus on the correctness of Go concurrency. Two recent Go [static verification](https://en.wikipedia.org/wiki/Software_verification) papers [1](https://dl.acm.org/doi/10.1145/3009837.3009847)[2](http://mrg.doc.ic.ac.uk/publications/a-static-verification-framework-for-message-passing-in-go-using-behavioural-types/draft.pdf) extract a system of type equations from the Go source code SSA IR [^1] equivalent. A calculus mirrors channel-based behaviors of Go programs (goroutines, functions, channel create/communicate/close, etc.)  in the form of mutually recursive definitions. Table1 explains the syntax of MiGo.  The behavioral typing system derives from MiGo can be checked for liveness and safety in three steps:
+Due to its simplicity and functionality, Go is receiving attention among developers. However, there are not that many tools to focus on the correctness of Go concurrency. Two recent Go [static verification](https://en.wikipedia.org/wiki/Software_verification) papers ([1](https://dl.acm.org/doi/10.1145/3009837.3009847), [2](http://mrg.doc.ic.ac.uk/publications/a-static-verification-framework-for-message-passing-in-go-using-behavioural-types/draft.pdf)) extract a system of type equations from the Go source code SSA IR [^1] equivalent. A calculus mirrors channel-based behaviors of Go programs (goroutines, functions, channel create/communicate/close, etc.)  in the form of mutually recursive definitions. Table1 explains the syntax of MiGo.  The behavioral typing system derives from MiGo can be checked for liveness and safety in three steps:
 
 1. Syntactic restrictions on types (*Fenced* types)
 2. Symbolic semantics definitions for types (LTS)
@@ -42,5 +42,15 @@ Tracing tools like [Jaeger](https://github.com/jaegertracing/jaeger-client-go), 
 Now that I did not find any of these (mostly commercial) tools helpful for my purpose (which is automatic instrumentation of Go for runtime verification), I found that Go provides packages that allow developers/researchers make their own customized tools:
 
 
-- G
+- **Go/token:** Defines constants representing the lexical tokens of the Go and their basic operations.
+- **Go/scanner:** Implements a scanner for source text. It takes a []byte as source which can be tokenized through repeated calls to the scan method.
+- **Go/ast:** Declares the types used to represent syntax trees for Go packages.
+- **Go/parser:** Implements a parser for Go source files. Input may be provided in a variety of forms; the output is an abstract syntax tree (AST) representing the Go source. In other words, parser uses scanner to iterate over tokens of a source code (e.g., line of code) and generates its equivalent AST.
+- **Go/printer:** Prints the equivalent Go source of an AST.
+
+The basic idea for automatic instrumentation of Go source code is to:
+- take a Go source and pass it to the **parser** package
+- generate its **AST**
+- insert whatever instrumentation is needed to the AST
+- print the new source
 ------

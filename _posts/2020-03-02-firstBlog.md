@@ -53,4 +53,10 @@ The basic idea for automatic instrumentation of Go source code is to:
 - generate its **AST**
 - insert whatever instrumentation is needed to the AST
 - print the new source
+
+Now just for fun of it, I want to write a Go program that analyze the source of another Go program and outputs all the channel transactions.
+
+# Analyzing channel communication via AST analysis
+
+
 ------

@@ -9,10 +9,7 @@ redirect_from:
 ---
 
 
-Latest CV - March 2020: <a href="https://staheri.github.io/files/cv-march20.pdf">
-         <img alt="CV" src="https://staheri.github.io/images/pdf_logo.jpeg"
-         width=30" height="45">
-      </a>
+[Latest CV - March 2020](https://staheri.github.io/files/cv-march20.pdf)
 
 Education
 ======
@@ -22,6 +19,7 @@ Education
 
 Experties
 ======
+* Concurrent Golang, development and correctness
 * HPC Correctness
 * Programming Languages
 * Floating Point Analysis
@@ -43,6 +41,3 @@ Work experience
 * Research Assistant - Efficient Computing Labratory at Texas State University, Fall 2013 - Fall 2014
 * Graduate Assistant - Texas State University, Fall 2012 - Summer 2013
 * Web Developer - Zarrin System Fars, 2012
-
-
-Latest CV - March 2020: [![CV_pdf](https://staheri.github.io/images/pdf_logo.jpeg =45*30)](https://staheri.github.io/files/cv-march20.pdf)

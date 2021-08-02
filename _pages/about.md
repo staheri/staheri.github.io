@@ -9,10 +9,11 @@ redirect_from:
 ---
 
 
-I am a Ph.D. candidate at [School of Computing](http://cs.utah.edu) - [University of Utah](http://utah.edu). I am a member of [Formal Verification Group](http://formalverification.cs.utah.edu/new/) under supervision of [Dr. Ganesh Gopalakrishnan](https://www.cs.utah.edu/~ganesh/). The general theme of my Ph.D. is on designing "Debuggers" for parallel applications. I collect different type of dynamic traces (e.g., evidence) efficiently, and systematically analyze traces to bring intuition about the behavior of the program to the developer. My interests are HPC debugging mechanism with a focus on hybrid applications (distributed and shared memory). Currently I am working on concurrent bugs in golang.
+I just defended my Ph.D. at [School of Computing](http://cs.utah.edu) - [University of Utah](http://utah.edu), as a member of [Formal Verification Group](http://formalverification.cs.utah.edu/new/) under supervision of [Dr. Ganesh Gopalakrishnan](https://www.cs.utah.edu/~ganesh/). The title of Ph.D. dissertation is "Debugging and Analysis Tools for Concurrent Programs". I have created three software systems: DiffTrace, ParLOT and GOAT (TBC).
 
 News
 =======
+* [07-28-2021] Successfully defended my Ph.D. dissertation with the title "Debugging and Analysis Tools for Concurrent Programs". You can call me Dr. Taheri now :).
 * [04-02-2020] Successfully defended my Ph.D. proposal (oral qualification exam) entitled "Efficient Whole-Program Tracing for HPC Behavioral Analysis". I am now a Ph.D. candidate.
 * [10-22-2019] Presented my short paper (and poster) entitled "Floating Point Analysis via Basic Block Tracing" in Student Forum @ FMCAD'19, San Jose, CA.
 * [09-25-2019] Presented my paper entitled "DiffTrace: Efficient Whole-Program Trace Analysis and Diffing for Debugging" in IEEE CLUSTER'19, Albuquerque, NM.

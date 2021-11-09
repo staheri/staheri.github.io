@@ -13,7 +13,10 @@ I just defended my Ph.D. at [School of Computing](http://cs.utah.edu) - [Univers
 
 News
 =======
-* [07-28-2021] Successfully defended my Ph.D. dissertation with the title "Debugging and Analysis Tools for Concurrent Programs". You can call me Dr. Taheri now :).
+* [11-09-2021] Presented my paper entitled "GOAT: Automated Concurrency Analysis and Debugging Tool for Go" accepted for IISWC 2021 conference [YouTube](https://www.youtube.com/watch?v=T0szXVZV_DM)
+* [10-02-2021] Paper entitled "GOAT: Automated Concurrency Analysis and Debugging Tool for Go" accepted for [IISWC 2021](http://www.iiswc.org/iiswc2021/index.html) conference. 
+* [09-07-2021] Started working for [Miso Robotics](https://misorobotics.com/) as software engineer
+* [07-28-2021] Successfully defended my [Ph.D. dissertation](https://staheri.github.io/files/dissertation-saeed.pdf) with the title "Debugging and Analysis Tools for Concurrent Programs". You can call me Dr. Taheri now :).
 * [04-02-2020] Successfully defended my Ph.D. proposal (oral qualification exam) entitled "Efficient Whole-Program Tracing for HPC Behavioral Analysis". I am now a Ph.D. candidate.
 * [10-22-2019] Presented my short paper (and poster) entitled "Floating Point Analysis via Basic Block Tracing" in Student Forum @ FMCAD'19, San Jose, CA.
 * [09-25-2019] Presented my paper entitled "DiffTrace: Efficient Whole-Program Trace Analysis and Diffing for Debugging" in IEEE CLUSTER'19, Albuquerque, NM.

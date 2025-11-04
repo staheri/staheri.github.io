@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Saeed Taheri"
 title_separator          : "-"
 name                     : &name "Saeed Taheri"
-description              : &description "Ph.D. Candidate @ University of Utah"
+description              : &description "Member of Technical Staff @ eBay"
 url                      : https://staheri.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "staheri.github.io"
@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Saeed Taheri"
   avatar           : "newPic.jpg"
-  bio              : "Computer Science Ph.D. Candidate @ University of Utah"
-  location         : "Salt Lake City, Utah"
+  bio              : "Member of Technical Staff @ eBay"
+  location         : "Vancouver, Washington"
   employer         :
   googlescholar    : https://scholar.google.com/citations?user=TJVQmioAAAAJ&hl=en
-  email            : "staheri@cs.utah.edu"
+  email            : "saeed.thr5@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
